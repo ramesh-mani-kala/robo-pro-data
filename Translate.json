@@ -1,0 +1,113 @@
+[
+    {
+        "English": {
+            "ALERT_NOTIFICATION": "Alert Notification",
+            "VERIFY": "Verify",
+            "EMAIL_LIST_DATA": "This was a clean sweep. \n No Email were detected.",
+            "POST_URL": "Post URL",
+            "ACCESS_TOKEN": "Access Token",
+            "WEBHOOKS_ADDED_SUCCESS": "Webhooks has been added.",
+            "WEBHOOKS_UPDATED_SUCCESS": "Webhook has been updated.",
+            "WEBHOOKS_DELETED_SUCCESS": "Webhooks have been deleted.",
+            "WEBHOOK_DELETED_SUCCESS": "Webhook has been deleted.",
+            "WEBHOOKS_ADD_FAILURE": "Failed to add Webhook.",
+            "WEBHOOKS_UPDATE_FAILURE": "Failed to update Webhook.",
+            "WEBHOOKS_DELETE_FAILURE": "Failed to delete Webhooks.",
+            "WEBHOOK_DELETE_FAILURE": "Failed to delete Webhook.",
+            "WEBHOOK_DELETE_CONFIRM_MSG": "Once dismissed, this Webhooks will be permanently removed. Are you sure?",
+            "DELETE_CONFIRM_WEBHOOKS_TITLE": "Would you like to delete the Webhooks",
+            "EDIT_WEBHOOK": "Edit Webhook",
+            "ADD_WEBHOOK": "Add Webhook",
+            "INVALID_POST_URL": "Invalid Post URL"
+        }
+    },
+    {
+        "Spansih": {
+            "ALERT_NOTIFICATION": "Notificación de alerta",
+            "VERIFY": "Verificar",
+            "EMAIL_LIST_DATA": "Esto fue un barrido limpio. \n No se detectó ningún correo electrónico.",
+            "POST_URL": "URL de publicación",
+            "ACCESS_TOKEN": "Ficha de acceso",
+            "WEBHOOKS_ADDED_SUCCESS": "Se han agregado webhooks.",
+            "WEBHOOKS_UPDATED_SUCCESS": "Webhook ha sido actualizado.",
+            "WEBHOOKS_DELETED_SUCCESS": "Se han eliminado los webhooks.",
+            "WEBHOOK_DELETED_SUCCESS": "Se ha eliminado el webhook.",
+            "WEBHOOKS_ADD_FAILURE": "No se pudo agregar Webhook.",
+            "WEBHOOKS_UPDATE_FAILURE": "No se pudo actualizar Webhook.",
+            "WEBHOOKS_DELETE_FAILURE": "No se pudieron eliminar los webhooks.",
+            "WEBHOOK_DELETE_FAILURE": "No se pudo eliminar el webhook.",
+            "WEBHOOK_DELETE_CONFIRM_MSG": "Una vez descartados, estos Webhooks se eliminarán permanentemente. ¿Está seguro?",
+            "DELETE_CONFIRM_WEBHOOKS_TITLE": "¿Quieres eliminar los webhooks?",
+            "EDIT_WEBHOOK": "Editar webhook",
+            "ADD_WEBHOOK": "Agregar webhook",
+            "INVALID_POST_URL": "URL de publicación no válida"
+        }
+    },
+    {
+        "German": {
+        "ALERT_NOTIFICATION": "Warnmeldung",
+        "VERIFY": "Verifizieren",
+        "EMAIL_LIST_DATA": "Das war eine saubere Sache. \n Es wurden keine E-Mails erkannt.",
+        "POST_URL": "Beitrags-URL",
+        "ACCESS_TOKEN": "Zugangstoken",
+        "WEBHOOKS_ADDED_SUCCESS": "Webhooks wurden hinzugefügt.",
+        "WEBHOOKS_UPDATED_SUCCESS": "Webhook wurde aktualisiert.",
+        "WEBHOOKS_DELETED_SUCCESS": "Webhooks wurden gelöscht.",
+        "WEBHOOK_DELETED_SUCCESS": "Webhook wurde gelöscht.",
+        "WEBHOOKS_ADD_FAILURE": "Webhook konnte nicht hinzugefügt werden.",
+        "WEBHOOKS_UPDATE_FAILURE": "Webhook konnte nicht aktualisiert werden.",
+        "WEBHOOKS_DELETE_FAILURE": "Webhooks konnten nicht gelöscht werden.",
+        "WEBHOOK_DELETE_FAILURE": "Webhook konnte nicht gelöscht werden.",
+        "WEBHOOK_DELETE_CONFIRM_MSG": "Nach der Ablehnung werden diese Webhooks dauerhaft entfernt. Bist du sicher?",
+        "DELETE_CONFIRM_WEBHOOKS_TITLE": "Möchten Sie die Webhooks löschen?",
+        "EDIT_WEBHOOK": "Webhook bearbeiten",
+        "ADD_WEBHOOK": "Webhook hinzufügen",
+        "INVALID_POST_URL": "Ungültige Beitrags-URL"
+    }
+},
+{
+    "Italian": {
+        "ALERT_NOTIFICATION": "Notifica di avviso",
+        "VERIFY": "Verificare",
+        "EMAIL_LIST_DATA": "Questa è stata una piazza pulita. \nNon è stata rilevata alcuna email.",
+        "POST_URL": "Pubblica l'URL",
+        "ACCESS_TOKEN": "Token di accesso",
+        "WEBHOOKS_ADDED_SUCCESS": "Sono stati aggiunti webhook.",
+        "WEBHOOKS_UPDATED_SUCCESS": "Il webhook è stato aggiornato.",
+        "WEBHOOKS_DELETED_SUCCESS": "I webhook sono stati eliminati.",
+        "WEBHOOK_DELETED_SUCCESS": "Webhook has been deleted.",
+        "WEBHOOKS_ADD_FAILURE": "Impossibile aggiungere il webhook.",
+        "WEBHOOKS_UPDATE_FAILURE": "Impossibile aggiornare il webhook.",
+        "WEBHOOKS_DELETE_FAILURE": "Impossibile eliminare i webhook.",
+        "WEBHOOK_DELETE_FAILURE": "Impossibile eliminare il webhook.",
+        "WEBHOOK_DELETE_CONFIRM_MSG": "Una volta ignorati, questi Webhook verranno rimossi in modo permanente. Sei sicuro?",
+        "DELETE_CONFIRM_WEBHOOKS_TITLE": "Desideri eliminare i Webhook",
+        "EDIT_WEBHOOK": "Modifica webhook",
+        "ADD_WEBHOOK": "Aggiungi webhook",
+        "INVALID_POST_URL": "URL del messaggio non valido"
+    }
+},
+{
+    "Japanese": {
+        "ALERT_NOTIFICATION": "アラート通知",
+        "VERIFY": " 確認する",
+        "EMAIL_LIST_DATA": "これは一掃でした。 \n 電子メールが検出されませんでした",
+        "POST_URL": "投稿URL",
+        "ACCESS_TOKEN": "アクセストークン",
+        "WEBHOOKS_ADDED_SUCCESS": "Webhookが追加されました",
+        "WEBHOOKS_UPDATED_SUCCESS": "Webhookが更新されました。",
+        "WEBHOOKS_DELETED_SUCCESS": "Webhook は削除されました。",
+        "WEBHOOK_DELETED_SUCCESS": "Webhook が削除されました",
+        "WEBHOOKS_ADD_FAILURE": "Webhookの追加に失敗しました",
+        "WEBHOOKS_UPDATE_FAILURE": "Webhookの更新に失敗しました。",
+        "WEBHOOKS_DELETE_FAILURE": "Webhookの削除に失敗しました。",
+        "WEBHOOK_DELETE_FAILURE": "Webhookの削除に失敗しました。",
+        "WEBHOOK_DELETE_CONFIRM_MSG": "削除されると、この Webhook は完全に削除されます。本気ですか？",
+        "DELETE_CONFIRM_WEBHOOKS_TITLE": "Webhookを削除しますか?",
+        "EDIT_WEBHOOK": "Webhook の編集",
+        "ADD_WEBHOOK": "Webhook の追加",
+        "INVALID_POST_URL": "無効な投稿 URL"
+    }
+}
+    
+]
