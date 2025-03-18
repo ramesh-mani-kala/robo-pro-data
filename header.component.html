@@ -1,0 +1,83 @@
+<mat-toolbar class="header-container">
+  <span class="spacer"></span>
+  <div class="header-content">
+    <img class="menu-title" src="assets/images/toggle.png" alt="Menu Title">
+    <ng-container [ngSwitch]="currentRoute">
+      <span *ngSwitchCase="'projects'" class="page-title">Projects</span>
+      <span *ngSwitchCase="'dashboard'" class="page-title">Dashboard</span>
+      <ng-container *ngSwitchCase="'testcase'">
+        <div class="inline-container">
+          <ng-container *ngFor="let logo of logos">
+            <img [src]="logo.src" [alt]="logo.alt" class="library-logo" *ngIf="logo.show" />
+          </ng-container>
+          <span class="page-title ml50">{{ projectName }}</span>
+        </div>
+      </ng-container>
+      <ng-container *ngSwitchCase="'code-editor'">
+        <div class="inline-container">
+          <ng-container *ngFor="let logo of logos">
+            <img [src]="logo.src" [alt]="logo.alt" class="library-logo" *ngIf="logo.show" />
+          </ng-container>
+          <span class="page-title ml50">{{ projectName }}</span>
+        </div>
+      </ng-container>
+      <span *ngSwitchDefault class="page-title">{{ pageTitle }}</span>
+      <span *ngIf="currentRoute === 'project'" class="project-count" >{{ projectCount }}</span>
+    </ng-container>
+  </div>
+  <button
+  mat-raised-button
+  tourAnchor="start-button"
+  color="primary"
+  (click)="startTour()"
+>
+  Start Demo UI Tour
+</button>
+
+  <!-- <div class="circle-container">
+    <mat-icon>light_mode</mat-icon>
+  </div> -->
+  <div class="circle-container" (click)="navigateToHelpSection()">
+    <img class="circle-icon" [matTooltip]="'Click to Know More Info'" src="assets/images/questionMark.png" alt="info">
+  </div>
+  <div class="user-container">
+    <div class="profile-logo">
+      <img src="assets/images/UserProfile.png" alt="Profile Logo">
+    </div>
+    <div class="profile-details">
+      <span class="user-name">{{userName}}</span>
+      <span class="user-position">{{userType}}</span>
+    </div>
+    <mat-icon class="extend-icon" [matMenuTriggerFor]="userMenu">expand_more</mat-icon>
+  </div>
+  <mat-menu class="open-usermenu" #userMenu="matMenu">
+    <button  mat-menu-item (click)="openProfileDialog(false)">
+      <mat-icon>person</mat-icon>
+      <span>Profile</span>
+    </button>
+    <button mat-menu-item (click)="openProfileDialog(true)">
+      <mat-icon>lock_open</mat-icon>
+      <span>Change Password</span>
+    </button>
+    <button mat-menu-item (click)="logout()">
+      <mat-icon>exit_to_app</mat-icon>
+      <span>Logout</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>
+
+<ng-template #logoutConfirmationDialog>
+  <div class="dialog-header">
+    <h2 mat-dialog-title>Confirm Logout</h2>
+    <mat-icon class="cancel-icon" (click)="closeDialog()">close</mat-icon>
+  </div>
+  <mat-dialog-content class="inline-content">
+    <mat-icon>exit_to_app</mat-icon>
+    <p>Are you sure you want to log out?</p>
+  </mat-dialog-content>
+  <mat-divider></mat-divider>
+  <mat-dialog-actions align="end">
+    <button class="btn-cancel" (click)="closeDialog()">Cancel</button>
+    <button class="btn-primary" (click)="performLogout()">Logout</button>
+  </mat-dialog-actions>
+</ng-template>
